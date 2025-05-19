@@ -15,13 +15,9 @@ export default function WhoWeArePage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-teal text-white py-20">
+      <section className="bg-teal text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Who We Are</h1>
-          <p className="text-xl max-w-3xl mx-auto">
-            CCNatters is a community-first movement reimagining what faith, freedom, family, and healing look like
-            today.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold">Who We Are</h1>s
         </div>
       </section>
 
@@ -53,7 +49,7 @@ export default function WhoWeArePage() {
                   Illy and Mo's friendship began years before CCNatters existed, through countless late-night
                   conversations about faith, identity, and the dissonance they felt between what they were taught and
                   what they experienced. As two individuals navigating their own complex journeys with faith, they found
-                  themselves asking questions that seemed unwelcome in traditional religious spaces--Why does belonging
+                  themselves asking questions that seemed unwelcome in traditional religious spaces. Why does belonging
                   require behaving a certain way?
                 </p>
 
@@ -242,7 +238,7 @@ export default function WhoWeArePage() {
                   <tr>
                     <td className="border-b border-gray-200 p-4 font-medium">Authenticity</td>
                     <td className="border-b border-gray-200 p-4">
-                      We embrace honesty, doubt, and vulnerability — it's how transformation begins.
+                      We embrace honesty, doubt, and vulnerability, it's how transformation begins.
                     </td>
                   </tr>
                   <tr>

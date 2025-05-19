@@ -178,10 +178,10 @@ export default function ProgramsPage() {
               </div>
 
               <div className="space-y-6 order-1 md:order-2">
-                <div className="w-16 h-16 rounded-full bg-mint/10 flex items-center justify-center">
-                  <ShoppingBag className="h-8 w-8 text-mint" />
+                <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center">
+                  <ShoppingBag className="h-8 w-8 text-emerald-600" />
                 </div>
-                <h2 className="text-3xl font-bold text-mint">Dignity-First Outreach</h2>
+                <h2 className="text-3xl font-bold text-emerald-600">Dignity-First Outreach</h2>
                 <p className="text-xl font-medium">We meet practical needs with relational dignity.</p>
                 <p className="text-gray-600">
                   Life can be challenging. Our outreach program provides food parcels, hygiene kits, and resource
@@ -206,7 +206,7 @@ export default function ProgramsPage() {
                   </p>
                 </div>
 
-                <Button asChild className="mt-4 bg-mint hover:bg-mint/90 text-navy">
+                <Button asChild className="mt-4 bg-emerald-600 hover:bg-emerald-700 text-white">
                   <Link href="/get-involved#dignity-first">Get Support or Volunteer</Link>
                 </Button>
               </div>
@@ -221,10 +221,10 @@ export default function ProgramsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-cyan/10 flex items-center justify-center">
-                  <Megaphone className="h-8 w-8 text-cyan" />
+                <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                  <Megaphone className="h-8 w-8 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold text-cyan">Voice & Advocacy</h2>
+                <h2 className="text-3xl font-bold text-blue-600">Voice & Advocacy</h2>
                 <p className="text-xl font-medium">From silence to impact.</p>
                 <p className="text-gray-600">
                   We amplify unheard stories through podcasting, campaigns, and storytelling projects - helping people
@@ -249,7 +249,7 @@ export default function ProgramsPage() {
                   </p>
                 </div>
 
-                <Button asChild className="mt-4 bg-cyan hover:bg-cyan/90 text-navy">
+                <Button asChild className="mt-4 bg-blue-600 hover:bg-blue-700 text-white">
                   <Link href="/get-involved#voice-advocacy">Share Your Story</Link>
                 </Button>
               </div>
@@ -308,11 +308,9 @@ export default function ProgramsPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="text-yellow text-2xl">🔸</span>
               <span className="text-lg">Email: hello@ccnatters.com</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-yellow text-2xl">🔸</span>
               <Button asChild className="bg-yellow hover:bg-yellow/90 text-navy">
                 <Link href="/get-involved">Get involved</Link>
               </Button>

@@ -9,13 +9,9 @@ export default function GetInvolvedPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-teal text-white py-20">
+      <section className="bg-teal text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Get Involved</h1>
-          <p className="text-xl max-w-3xl mx-auto">
-            There are real, practical ways you can get involved with CCNatters: by showing up, sharing your skills,
-            offering support, or helping us reach more communities.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold ">Get Involved</h1>
         </div>
       </section>
 
@@ -34,19 +30,15 @@ export default function GetInvolvedPage() {
 
                 <ul className="space-y-4 mt-4">
                   <li className="flex items-start gap-3">
-                    <span className="text-yellow text-2xl">🟡</span>
                     <span>Bible & Breakfast – A warm meal, open conversation, no pressure</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-yellow text-2xl">🟡</span>
                     <span>Creative Spaces – Workshops, performances, and content creation meetups</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-yellow text-2xl">🟡</span>
                     <span>Live Podcast Events – Recording nights, panels, and community Q&As</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-yellow text-2xl">🟡</span>
                     <span>Healing Circles – Peer support gatherings and trauma-informed group spaces</span>
                   </li>
                 </ul>

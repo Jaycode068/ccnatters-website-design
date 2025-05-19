@@ -8,10 +8,9 @@ export default function PodcastPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-teal text-white py-20">
+      <section className="bg-teal text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">CCNatters Podcast</h1>
-          <p className="text-xl max-w-3xl mx-auto">Real Conversations Beyond Religion</p>
+          <h1 className="text-4xl md:text-5xl font-bold">CCNatters Podcast</h1>
         </div>
       </section>
 
