@@ -7,14 +7,9 @@ export default function ProgramsPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-teal text-white py-20">
+      <section className="bg-teal text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Programs</h1>
-          <p className="text-xl max-w-3xl mx-auto">
-            CCNatters isn't just a podcast - it's a holistic ecosystem designed to foster healing, creativity, and
-            community. Each program addresses different aspects of the journey from silence to voice, from isolation to
-            belonging, from trauma to freedom.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold">Our Programs</h1>
         </div>
       </section>
 
