@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 196 100% 20%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 187 89% 68%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    /* Brand Colors */
+    --brand-teal: 196 100% 20%;
+    --brand-cyan: 183 89% 68%;
+    --brand-yellow: 45 100% 61%;
+    --brand-coral: 9 100% 66%;
+    --brand-mint: 142 71% 74%;
+    --brand-navy: 196 100% 6%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 196 100% 20%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 187 89% 68%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .bg-teal {
+    @apply bg-[#004B64];
+  }
+  .bg-cyan {
+    @apply bg-[#62F4F9];
+  }
+  .bg-yellow {
+    @apply bg-[#FFCA3A];
+  }
+  .bg-coral {
+    @apply bg-[#FF6652];
+  }
+  .bg-mint {
+    @apply bg-[#8FEAAA];
+  }
+  .bg-navy {
+    @apply bg-[#00151C];
+  }
+
+  .text-teal {
+    @apply text-[#004B64];
+  }
+  .text-cyan {
+    @apply text-[#62F4F9];
+  }
+  .text-yellow {
+    @apply text-[#FFCA3A];
+  }
+  .text-coral {
+    @apply text-[#FF6652];
+  }
+  .text-mint {
+    @apply text-[#8FEAAA];
+  }
+  .text-navy {
+    @apply text-[#00151C];
+  }
+
+  .border-teal {
+    @apply border-[#004B64];
+  }
+  .border-cyan {
+    @apply border-[#62F4F9];
+  }
+  .border-yellow {
+    @apply border-[#FFCA3A];
+  }
+  .border-coral {
+    @apply border-[#FF6652];
+  }
+  .border-mint {
+    @apply border-[#8FEAAA];
+  }
+  .border-navy {
+    @apply border-[#00151C];
+  }
+}
