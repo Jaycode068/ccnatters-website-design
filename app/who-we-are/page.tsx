@@ -17,7 +17,7 @@ export default function WhoWeArePage() {
       {/* Hero Section */}
       <section className="bg-teal text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold">Who We Are</h1>s
+          <h1 className="text-4xl md:text-5xl font-bold">Who We Are</h1>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function WhoWeArePage() {
                   className="rounded-lg shadow-lg"
                 />
                 <Image
-                  src="/images/podcast-hosts.jpeg"
+                  src="/images/podcast-hosts.jpg"
                   alt="CCNatters Podcast Hosts"
                   width={500}
                   height={400}
@@ -261,32 +261,8 @@ export default function WhoWeArePage() {
             Meet Mo and Illy - the passionate founders behind CCNatters
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-            <Card className="overflow-hidden">
-              <div className="aspect-square relative">
-                <Image src="/images/mo.jpeg" alt="Mo" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Mo</h3>
-                <p className="text-gray-600">
-                  Co-founder and podcast host, Mo brings her experience in community building and pastoral care to
-                  create spaces where authenticity thrives.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="aspect-square relative">
-                <Image src="/images/illy.jpeg" alt="Illy" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Illy</h3>
-                <p className="text-gray-600">
-                  Co-founder and creative director, Illy combines her passion for storytelling and faith to amplify
-                  voices that need to be heard.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="grid h-64 md:h-80 lg:h-[600px] max-w-6xl mx-auto rounded-lg shadow-xl overflow-hidden">
+            <Image src="/images/podcast-hosts.jpg" alt="Founders" width={800} height={800} className="object-cover w-full h-full" />
           </div>
 
           <div className="max-w-3xl mx-auto text-center mt-12">

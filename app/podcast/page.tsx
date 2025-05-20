@@ -36,7 +36,7 @@ export default function PodcastPage() {
             </div>
             <div>
               <Image
-                src="/images/podcast-hosts.jpeg"
+                src="/images/podcast-hosts.jpg"
                 alt="Mo and Illy - CCNatters Podcast Hosts"
                 width={600}
                 height={400}
